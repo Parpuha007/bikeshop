@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="dist/styles/import.css">
+	<link rel="stylesheet" type="text/css" href="dist/styles/fonts.css">
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/swiper/dist/css/swiper.min.css">
+</head>
+<body>
+	<div class="wrapper">
+			<header class="header">
+			<div class="swiper-container">
+			        <div class="swiper-wrapper">
+			            <div class="swiper-slide" style="background-image:url(img/slider1.png)"></div>
+			            <div class="swiper-slide" style="background-image:url(img/slider2.png)"></div>
+			            <div class="swiper-slide" style="background-image:url(img/slider3.png)"></div>
+			            <div class="swiper-slide" style="background-image:url(img/slider5.png)"></div>
+			        </div>
+			        <!-- Add Pagination -->
+			        <div class="swiper-pagination swiper-pagination-white"></div>
+			        <!-- Add Arrows -->
+			        <div class="swiper-button-next swiper-button-white"></div>
+			        <div class="swiper-button-prev swiper-button-white"></div>
+			    </div>
+				<div class="head-container">
+					<a href="#" class="logo-link">
+						<img src="img/logo.png" alt="Logo">
+					</a>
+					<nav class="header-nav">
+						<ul class="header-list">
+							<li class="header-item">bicycles
+								<ul>
+									<li>fixed/single speed</li>
+									<li>city bikes</li>
+									<li>premium series</li>
+								</ul>
+							</li>
+							<li class="header-item">parts
+								<ul>
+									<li>frame</li>
+									<li>pedals</li>
+									<li>chains</li>
+									<li>wheels</li>
+									<li>reflectors</li>
+								</ul>
+							</li>
+							<li class="header-item">accesoriees
+								<ul>
+									<li>trinkets</li>
+									<li>beeps</li>
+								</ul>
+							</li>
+							<li class="header-item">extras
+								<ul>
+									<li>gold bikes</li>
+									<li>silver bikes</li>
+								</ul>
+							</li>
+							<li class="header-item basket">
+								<i class="fa fa-shopping-cart " aria-hidden="true"></i>
+							</li>
+						</ul>
+					</nav>
+					<div class="head-caption">
+						<h1>handmade bicycle</h1>
+						<span>You create the journey, we pupply the parts</span>
+						<br>
+						<button>shop bikes</button>
+					</div>
+				</div>
+			</header>
+	</div>
+	<script src="libs/swiper/dist/js/swiper.min.js"></script>
+	<script scr="../js/common.js"></script>
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30,
+        effect: 'fade',
+        autoplay: 5500,
+        autoplayDisableOnInteraction: false
+    });
+	</script>
+</body>
+</html>
