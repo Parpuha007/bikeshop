@@ -10,10 +10,18 @@
 body {
 	font-family: 'MyriadPro';
 	font-size: 16px;
+	max-width: 1920px;
+	margin: auto;
+}
+.wrapper {
+	max-width: 1920px;
+	margin: auto;
 }
 .swiper-container {
     width: 100vw;
-    height: 65vh;
+    height: 85vh;
     position: absolute;
     top: 0;
+    max-width: 1920px;
+
 }      

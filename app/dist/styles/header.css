@@ -1,6 +1,7 @@
 .header {
-  height: 65vh;
-  background-color: purple; }
+  height: 75vh;
+  max-width: 1920px;
+  overflow: hidden; }
 
 .head-container {
   color: white;
@@ -11,7 +12,8 @@
   width: 100vw;
   z-index: 100;
   position: absolute;
-  top: 0; }
+  top: 0;
+  max-width: inherit; }
 
 .logo-link {
   margin-left: 21%;
@@ -21,7 +23,8 @@
 
 .header-nav {
   text-transform: uppercase;
-  margin-right: 15%; }
+  margin-right: 15%;
+  z-index: 101; }
 
 .header-item {
   position: relative;
@@ -56,14 +59,18 @@
     transform: scale(1.5); }
 
 .head-caption {
+  width: inherit;
+  max-width: 1920px;
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   top: 25vh;
-  left: 50vw;
-  transform: translateX(-50%);
   text-align: center; }
   .head-caption h1 {
     text-transform: uppercase;
-    font-size: 50px; }
+    font-size: 50px;
+    margin-bottom: 20px; }
   .head-caption span {
     font-size: 28px;
     font-family: 'MyriadPro Regular'; }
@@ -76,7 +83,8 @@
     color: #fcff19;
     text-transform: uppercase;
     font-size: 16px;
-    border-radius: 10px; }
+    border-radius: 10px;
+    margin-top: 30px; }
     .head-caption button:hover {
       background-color: #fff;
       color: #000;

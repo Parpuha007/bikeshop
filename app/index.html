@@ -7,23 +7,22 @@
 	<link rel="stylesheet" type="text/css" href="dist/styles/fonts.css">
 	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="libs/swiper/dist/css/swiper.min.css">
+	<link rel="stylesheet" href="dist/styles/media.css">
 </head>
 <body>
 	<div class="wrapper">
 			<header class="header">
-			<div class="swiper-container">
-			        <div class="swiper-wrapper">
-			            <div class="swiper-slide" style="background-image:url(img/slider1.png)"></div>
-			            <div class="swiper-slide" style="background-image:url(img/slider2.png)"></div>
-			            <div class="swiper-slide" style="background-image:url(img/slider3.png)"></div>
-			            <div class="swiper-slide" style="background-image:url(img/slider5.png)"></div>
-			        </div>
-			        <!-- Add Pagination -->
-			        <div class="swiper-pagination swiper-pagination-white"></div>
-			        <!-- Add Arrows -->
-			        <div class="swiper-button-next swiper-button-white"></div>
-			        <div class="swiper-button-prev swiper-button-white"></div>
-			    </div>
+				<div class="swiper-container">
+				        <div class="swiper-wrapper">
+				            <div class="swiper-slide" style="background-image:url(img/slider1.png)"></div>
+				            <div class="swiper-slide" style="background-image:url(img/slider2.png)"></div>
+				            <div class="swiper-slide" style="background-image:url(img/slider3.png)"></div>
+				            <div class="swiper-slide" style="background-image:url(img/slider5.png)"></div>
+				        </div>
+				        <!-- Add Arrows -->
+				        <div class="swiper-button-next swiper-button-white"></div>
+				        <div class="swiper-button-prev swiper-button-white"></div>
+				</div>
 				<div class="head-container">
 					<a href="#" class="logo-link">
 						<img src="img/logo.png" alt="Logo">
@@ -65,13 +64,136 @@
 					</nav>
 					<div class="head-caption">
 						<h1>handmade bicycle</h1>
-						<span>You create the journey, we pupply the parts</span>
+						<span>You create the journey, we supply the parts</span>
 						<br>
 						<button>shop bikes</button>
 					</div>
 				</div>
 			</header>
+			<section class="categories">
+				<div class="caption">
+					<h2>categories</h2>
+				</div>
+				<div class="cat-content">
+					<div class="cat-content-item cat1">
+						<div class="text-container">
+							<h4>fixed/single speed</h4>
+							<span>Are You for the 27.5 Revolution</span>
+						</div>
+						<svg width='350' height='290'>
+							<polygon class='polygon' points = '0,290 0,0 350,290' fill='#f5f6cf' opacity='0.5' >
+						</svg>
+						<button class="cat-button">go to shop</button>	
+					</div>
+					<div class="cat-content-item cat2">
+						<div class="text-container">
+							<h4>premium series</h4>
+							<span>Exclusive Bike Components</span>
+						</div>
+						<svg width='350' height='290'>
+							<polygon class='polygon' points = '0,290 0,0 350,290' fill='#f5f6cf' opacity='0.5' >
+						</svg>
+						<button class="cat-button">go to shop</button>		
+					</div>
+					<div class="cat-content-item cat3">
+						<div class="text-container">
+							<h4>city bikes</h4>
+							<span>Street Playground</span>
+						</div>	
+						<svg width='350' height='290'>
+							<polygon class='polygon' points = '0,290 0,0 350,290' fill='#f5f6cf' opacity='0.5' >
+						</svg>
+						<button class="cat-button">go to shop</button>	
+					</div>
+				</div>
+			</section>
+			<section class="popular-items">
+				<div class="caption">
+					<h2>popular bikes</h2>
+				</div>
+				<div class="pop-container">
+					<div class="pop-item">
+						<img src="img/pop1.png" alt="pop1">
+						<div class="container">
+							<div class="item-cap">
+								<h4>fixed gear</h4>
+								<span>$249.00</span>
+							</div>
+							<div class="min-wrap">
+								<select name="popular" id="pop">
+									<option value="1">option</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+								</select>
+								<button class="pop-button">byu</button>
+							</div>
+						</div>
+					</div>
+					<div class="pop-item">
+						<img src="img/pop2.png" alt="pop1">
+						<div class="container">
+							<div class="item-cap">
+								<h4>fixed gear</h4>
+								<span>$249.00</span>
+							</div>
+							<div class="min-wrap">
+								<select name="popular" id="pop">
+									<option value="1">option</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+								</select>
+								<button class="pop-button">byu</button>
+							</div>
+						</div>
+					</div>
+					<div class="pop-item">
+						<img src="img/pop3.png" alt="pop1">
+						<div class="container">
+							<div class="item-cap">
+								<h4>fixed gear</h4>
+								<span>$249.00</span>
+							</div>
+							<div class="min-wrap">
+								<select name="popular" id="pop">
+									<option value="1">option</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+								</select>
+								<button class="pop-button">byu</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="contact">
+				<div class="caption">
+					<h2>contact us</h2>
+				</div>
+				<p>Please contact us for all inquiries and purchase options.</p>
+				<form action="contact-us">
+					<div class="name">
+						<input type="text" placeholder="name">
+						<input type="text" placeholder="surname">
+					</div>
+					<input type="text" placeholder="user@domain.com">
+					<textarea name="" id="" cols="30" rows="10"></textarea>
+					<button>send</button>
+				</form>
+			</section>
 	</div>
+	<footer class="footer">
+		<a href="#" class="logo-link">
+			<img src="img/logo1.png" alt="Logo">
+		</a>
+		<ul>
+			<li>bicycles</li>
+			<li>parts</li>
+			<li>accessories</li>
+			<li>extras</li>
+		</ul>
+	</footer>
+
+
 	<script src="libs/swiper/dist/js/swiper.min.js"></script>
 	<script scr="../js/common.js"></script>
 	<script>
